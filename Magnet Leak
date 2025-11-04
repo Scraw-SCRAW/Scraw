@@ -36,7 +36,6 @@ function mainHook(type, pkt)
     end
 end
 AddHook("OnTextPacket", "ohnohshibal", mainHook)
-
 function MainGlory()
 sendPacket(3, "action|join_request\nname|KUSTF|nname\ninvitedWorld|0")
 sleep(3000)
